@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <title>Escolhas de Guerra</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você é um soldado em uma guerra e se encontra no campo de batalha, ao lado de seus companheiros, aguardando ordens.</p>
+            <button class="btn-proximo" data-proximo="1">Avançar na linha de frente</button>
+            <button class="btn-proximo" data-proximo="2">Defender a posição atual</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você lidera seus companheiros em um ataque ousado contra as linhas inimigas.</p>
+            <button class="btn-proximo" data-proximo="3">Ataque direto ao inimigo</button>
+            <button class="btn-proximo" data-proximo="4">Flanquear o inimigo</button>
+            <button class="btn-proximo" data-proximo="5">Desistir da missão</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Sua missão é segurar a linha, impedindo que o inimigo avance.</p>
+            <button class="btn-proximo" data-proximo="6">Reforçar a linha com artilharia</button>
+            <button class="btn-proximo" data-proximo="7">Enviar uma equipe para reconhecimento</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você conduz um ataque direto e consegue romper as defesas inimigas.</p>
+            <button class="btn-proximo" data-proximo="8">Vitória</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você decide flanquear o inimigo, pegando-os de surpresa e desorganizando suas forças.</p>
+            <button class="btn-proximo" data-proximo="8">Captura do comandante inimigo</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="cenario-passo5.png" alt="">
+            <p>Você decide que a batalha não é para você e opta por se retirar, evitando o combate direto.</p>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Você chama o apoio de artilharia, fortalecendo a defesa e repelindo o inimigo.</p>
+            <button class="btn-proximo" data-proximo="8">Resistência bem-sucedida.</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Uma equipe é enviada para obter informações sobre a movimentação inimiga, permitindo preparar uma contraofensiva eficaz.</p>
+            <button class="btn-proximo" data-proximo="8">Descobrir um ponto fraco do inimigo</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="cenario-passo8.png" alt="">
+            <p>Com suas decisões estratégicas e liderança, você conduziu suas tropas à vitória. Seu nome será lembrado como um herói que mudou o rumo da guerra e trouxe esperança para suas forças.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
